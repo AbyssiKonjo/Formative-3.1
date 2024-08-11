@@ -44,7 +44,6 @@ const Health = () => {
           <div key={index} className='article' onClick={() => handleReadMoreClick(index)}>
             <img src={article.urlToImage} alt={article.title + " Image"} />
             <h2>{article.title}</h2>
-            <button onClick={() => handleReadMoreClick(index)}>Read More</button>
           </div>
         )
       })

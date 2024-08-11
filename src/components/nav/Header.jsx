@@ -25,13 +25,25 @@ const Header = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
+                        <Link to='/general'>General</Link>
+                    </li>
+                    <li>
                         <Link to='/news'>News</Link>
                     </li>
                     <li>
                         <Link to='/health'>Health</Link>
                     </li>
                     <li>
+                        <Link to='/business'>Business</Link>
+                    </li>
+                    <li>
                         <Link to='/sports'>Sports</Link>
+                    </li>
+                    <li>
+                        <Link to='/science'>Science</Link>
+                    </li>
+                    <li>
+                        <Link to='/entertainment'>Entertainment</Link>
                     </li>
                     <li>
                         <Link to='/about'>About</Link>

@@ -175,6 +175,31 @@ header {
   width: 100%;
 }
 
+.single-article-page {
+  padding: 20px;
+  height: 100vh;
+}
+
+/* About Me */
+.about-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 40px;
+  color: white;
+  background-color: black;
+}
+
+.text-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.intro p{
+  width: 75%;
+  padding: 20px 0 ;
+}
+
 footer {
   padding: 3%;
   font-size: 15px;

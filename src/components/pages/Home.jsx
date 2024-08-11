@@ -14,7 +14,7 @@ const Home = () => {
         <>
         <div id='home-container'>
             <div id='boxContainer'>
-                <div className='box'>
+                <div className='box' onClick={() => handleCategoryClick('general')}>
                     <h2>GENERAL</h2>
                 </div>
                 <div className='box' onClick={() => handleCategoryClick('news')}>
@@ -23,16 +23,16 @@ const Home = () => {
                 <div className='box' onClick={() => handleCategoryClick('health')}>
                     <h2>HEALTH</h2>
                 </div>
-                <div className='box'>
+                <div className='box' onClick={() => handleCategoryClick('business')}>
                     <h2>BUSINESS</h2>
                 </div>
                 <div className='box' onClick={() => handleCategoryClick('sports')}>
                     <h2>SPORTS</h2>
                 </div>
-                <div className='box'>
+                <div className='box' onClick={() => handleCategoryClick('science')}>
                     <h2>SCIENCE</h2>
                 </div>
-                <div className='box'>
+                <div className='box' onClick={() => handleCategoryClick('entertainment')}>
                     <h2>ENTERTAINMENT</h2>
                 </div>
             </div>
